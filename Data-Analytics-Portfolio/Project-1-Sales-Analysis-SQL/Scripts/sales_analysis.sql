@@ -1,0 +1,1 @@
+SELECT * FROM Sales; -- Sample SQL script
