@@ -25,7 +25,7 @@ Welcome to my GitHub portfolio! I specialize in transforming complex data into a
 - **Tools**: SQL, Google Colab  
 - **Skills**: SQL queries, data storytelling, accessible project sharing  
 
-#### [3. Power BI Dashboard](#) ---------------------------------------------EDIT
+#### [3. Power BI Dashboard](#)
 - **Real-World Problem Solving**: Built a dashboard to track KPIs, enabling managers to monitor sales performance in real time.  
 - **Tools**: Power BI  
 - **Skills**: DAX calculations, Power Query, interactive reporting  
