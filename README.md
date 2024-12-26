@@ -61,7 +61,7 @@ Welcome to my GitHub portfolio! I specialize in transforming complex data into a
 
 ---
 
-### 📄 **Portfolio Summary PDF** ----------------------------------------EDIT
+### 📄 **Portfolio Summary PDF**
 [Download my one-page portfolio summary here.](#)  
 
 ---
