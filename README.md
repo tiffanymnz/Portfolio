@@ -1,4 +1,3 @@
-# Portfolio
 # Hi, I'm Tiffany! 👋  
 
 **Business Intelligence | AI & EdTech Enthusiast | Data Analyst | Teaching Assistant at University of Florida**  
