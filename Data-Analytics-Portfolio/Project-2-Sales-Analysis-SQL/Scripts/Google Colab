@@ -1,1 +1,74 @@
-[Google Colab](https://colab.research.google.com/drive/1BkKwLJQbjSUagNp5kCFFZvrKb_Fc558V?usp=sharing)
+[Google Colab link to view code](https://colab.research.google.com/drive/1BkKwLJQbjSUagNp5kCFFZvrKb_Fc558V?usp=sharing)
+
+Number of Sales Orders Per Month
+SELECT
+    DATEPART(MONTH, H.OrderDate) AS Month,
+    SUM(D.OrderQty) AS OrderCount
+FROM
+    Sales.SalesOrderHeader AS H
+JOIN
+    Sales.SalesOrderDetail AS D ON H.SalesOrderID = D.SalesOrderID
+GROUP BY
+    DATEPART(MONTH, H.OrderDate)
+ORDER BY
+    DATEPART(MONTH, H.OrderDate);
+
+--
+Category Of Sales Orders Per Month
+SELECT
+    C.Name AS Category,
+    DATEPART(MONTH, H.OrderDate) AS Month,
+    SUM(D.OrderQty) AS QuantitySold
+FROM
+    Sales.SalesOrderHeader AS H
+JOIN
+    Sales.SalesOrderDetail AS D ON H.SalesOrderID = D.SalesOrderID
+JOIN
+    Production.Product AS P ON D.ProductID = P.ProductID
+JOIN
+    Production.ProductSubcategory AS S ON P.ProductSubcategoryID = S.ProductSubcategoryID
+JOIN
+    Production.ProductCategory AS C ON S.ProductCategoryID = C.ProductCategoryID
+GROUP BY
+    C.Name,
+    DATEPART(MONTH, H.OrderDate)
+ORDER BY
+    C.Name,
+    DATEPART(MONTH, H.OrderDate)
+
+--
+Sales YTD Per Country
+SELECT
+    SalesTerritory.CountryRegionCode AS Country,
+    SUM(SalesTerritory.SalesYTD) AS SalesYTD
+FROM
+    Sales.SalesTerritory
+GROUP BY
+    SalesTerritory.CountryRegionCode
+ORDER BY
+    SalesYTD DESC;
+
+--
+Category of Sales Orders Per Country
+SELECT
+    C.Name AS Category,
+    T.CountryRegionCode AS Country,
+    SUM(D.OrderQty) AS QuantitySold
+FROM
+    Sales.SalesOrderHeader AS H
+JOIN
+    Sales.SalesOrderDetail AS D ON H.SalesOrderID = D.SalesOrderID
+JOIN
+    Production.Product AS P ON D.ProductID = P.ProductID
+JOIN
+    Production.ProductSubcategory AS S ON P.ProductSubcategoryID = S.ProductSubcategoryID
+JOIN
+    Production.ProductCategory AS C ON S.ProductCategoryID = C.ProductCategoryID
+JOIN
+    Sales.SalesTerritory AS T ON H.TerritoryID = T.TerritoryID
+GROUP BY
+    C.Name,
+    T.CountryRegionCode
+ORDER BY
+    T.CountryRegionCode,
+    C.Name;
