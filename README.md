@@ -9,7 +9,7 @@ Welcome to my GitHub portfolio! I focus on transforming complex data into action
 ### 🔍 **About Me**
 - 🎓 **Education**: Bachelor of Arts in Education Sciences (Educational Technology), University of Florida  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Associate of Science in Business Intelligence, Miami Dade College  
-- 💼 **Experience**: Teaching Assistant at UF, project-based retail data analytics, educational material development  
+- 💼 **Experience**: Teaching Assistant at UF, project-based data analytics, educational material development  
 - 🌟 **Interests**: Data-driven decision-making, AI tools, and optimizing business processes  
 - 📚 **Currently Learning**: Advanced Python for machine learning, AI-driven analytics tools  
 
