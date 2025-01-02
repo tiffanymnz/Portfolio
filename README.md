@@ -57,10 +57,9 @@ Discover a variety of projects that showcase my ability to analyze data, create 
 ---
 
 ### 📜 **Unique Aspects of My Background**
-- **Teaching Experience**: Developed data storytelling skills while explaining complex concepts as a Teaching Assistant at UF.  
+- **Teaching Experience**: Developed strong data storytelling skills by analyzing grading trends and providing actionable feedback to support student learning and performance in a higher education setting.
 - **Retail Analytics**: Gained insights into retail analytics through projects focused on consumer trends and inventory optimization. 
-- **Educational Technology**: Specialized in combining analytics with technology to enhance learning outcomes.  
-
+- **Educational Technology**: Developed and implemented educational materials, showcasing expertise in simplifying complex information into actionable and easily understood formats—an essential skill for data reporting and visualization.
 ---
 
 ### 📄 **Portfolio Summary PDF**
