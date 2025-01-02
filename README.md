@@ -2,7 +2,7 @@
 
 **Business Intelligence | AI & EdTech Enthusiast | Data Analyst | Teaching Assistant at University of Florida**  
 
-Welcome to my GitHub portfolio! I focus on transforming complex data into actionable insights that drive business decisions and improve operational performance.. My experience includes working with tools like Tableau, Power BI, SQL, Python, and Excel to analyze, visualize, and streamline data processes. 
+Welcome to my GitHub portfolio! I focus on transforming complex data into actionable insights that drive business decisions and improve operational performance. My experience includes working with tools like Tableau, Power BI, SQL, Python, and Excel to analyze, visualize, and streamline data processes. 
 
 ---
 
