@@ -41,9 +41,9 @@ Discover a variety of projects that showcase my ability to analyze data, create 
 ---
 
 ### 🛠️ **Technical Skills**
-- **Data Analysis**: Excel, SQL, Python  
+- **Data Analysis**: Excel, SQL, Python (Beginner)
 - **Visualization Tools**: Tableau, Power BI  
-- **Automation**: Python scripting for data workflows  
+- **Data Management**: Proficient in cleaning, organizing, and analyzing datasets using Excel functions and visualization tools.
 - **Soft Skills**: Communication, collaboration, problem-solving  
 
 ---
