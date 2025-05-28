@@ -83,3 +83,6 @@ Discover a variety of projects that showcase my ability to analyze data, create 
 - **LinkedIn**: https://www.linkedin.com/in/tiffany-muniz/ 
 - **Email**: tmuniz0309@gmail.com
 
+💡 Let’s connect! Whether it’s for data-driven insights, project collaboration, or analytics in education and business, I'm always open to impactful opportunities.
+
+
